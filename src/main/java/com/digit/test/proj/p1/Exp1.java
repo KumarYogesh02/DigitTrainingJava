@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exp1 {
+	public static void main(String args[]) {
 	
 	try
 	//try with resource try(Scanner sc= new Scanner(System.in))
@@ -67,6 +68,6 @@ public class Exp1 {
 		System.out.println("Array Related Exception");
 		
 	}
-	
+}
 
 }

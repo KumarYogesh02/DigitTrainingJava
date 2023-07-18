@@ -2,7 +2,7 @@ package com.digit.test.proj.p1;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 
 class operations{
 	void function1()throws Exception{
