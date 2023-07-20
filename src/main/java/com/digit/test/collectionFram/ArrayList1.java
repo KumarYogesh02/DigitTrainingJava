@@ -59,7 +59,7 @@ public class ArrayList1 {
 		System.out.println(l.getLast());
 		System.out.println(l.offer(23));
 		System.out.println(l.parallelStream());
-		System.out.println(a1);
+		
 		System.out.println(l);
 		
 	}
