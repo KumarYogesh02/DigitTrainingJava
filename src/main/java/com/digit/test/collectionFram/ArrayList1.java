@@ -3,8 +3,11 @@
  */
 package com.digit.test.collectionFram;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
+import java.util.TreeSet;
 
 /**
  * 
@@ -51,6 +54,10 @@ public class ArrayList1 {
 		LinkedList l= new LinkedList();
 		l.add("yash");
 		l.add("jadu");
+		l.add(23);
+		l.add(3);
+		l.add(1);
+		l.add(2);
 		l.addAll(a1);
 		//System.out.println(l);
 		
@@ -59,8 +66,57 @@ public class ArrayList1 {
 		System.out.println(l.getLast());
 		System.out.println(l.offer(23));
 		System.out.println(l.parallelStream());
+		System.out.println(l.remove(2));
+		l.remove(3);
+		
 		
 		System.out.println(l);
+		
+		ArrayDeque ad= new ArrayDeque();
+		ad.add(32);
+		ad.add(3);
+		ad.add(2);
+		ad.add(1);
+		ad.add(3);
+		ad.add(4);
+		
+		ad.addFirst(65);
+		ad.remove(3);
+		
+		System.out.println(ad);
+		PriorityQueue pq= new PriorityQueue();
+		pq.add(25);
+		pq.add(19);
+		pq.add(75);
+		pq.add(150);
+		pq.add(85);
+		pq.add(30);
+		pq.add(10);
+		System.out.println(pq);
+		PriorityQueue pq1=new PriorityQueue();
+		pq1.add(80);
+		pq1.add(20);
+		pq1.add(60);
+		pq1.add(2);
+		pq1.add(50);
+		pq1.add(90);
+		pq1.add(150);
+		pq1.add(125);
+		System.out.println(pq1);
+		
+		TreeSet ts= new TreeSet();
+		ts.add(80);
+		ts.add(20);
+		ts.add(60);
+		ts.add(2);
+		ts.add(50);
+		ts.add(90);
+		ts.add(150);
+		ts.add(125);
+		
+		System.out.println(ts.ceiling(150));
+		System.out.println(ts);
+		
 		
 	}
 
